@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сабир - Веб-разработчик | Создание сайтов на заказ, SEO продвижение, Telegram боты. Современные решения для вашего бизнеса.">
+    <meta name="keywords" content="веб-разработка, создание сайтов, SEO, React, Telegram боты, фриланс, портфолио">
+    <meta name="author" content="Сабир">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#00ff88">
+    <meta name="msapplication-TileColor" content="#0a0a0f">
+    
+    <title>Сабир | Веб-разработчик & Digital-специалист</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">Sabir</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О себе</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://t.me/hard_skil" target="_blank" aria-label="Telegram" class="nav-social-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 1C5.03 1 1 5.03 1 10s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm4.29 6.16l-1.46 6.89c-.11.49-.4.63-.81.39l-2.22-1.64-1.07 1.03c-.12.12-.22.22-.45.22l.16-2.25 4.1-3.7c.18-.16-.04-.25-.28-.09L7.42 11.8l-2.18-.68c-.48-.15-.49-.48.1-.7l8.53-3.29c.4-.15.74.09.61.64z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://vk.com/hard_sskil" target="_blank" aria-label="VKontakte" class="nav-social-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm5.5 14.5h-1.8c-.4 0-.7-.3-1.1-.7-.3-.3-.6-.6-.9-.6-.5 0-.6.2-.6.6v.7c0 .3-.1.4-.4.4h-.9c-.5 0-1.1-.1-1.6-.4-.4-.2-.8-.5-1.1-.9-.6-.7-1.1-1.5-1.5-2.4-.4-.9-.6-1.7-.6-2.4 0-.3.1-.4.4-.4h1.8c.3 0 .4.1.5.4.2.7.5 1.3.9 1.8.1.2.3.3.4.3.2 0 .3-.1.3-.4v-1.5c0-.7-.2-.9-.6-.9h-.3c-.2 0-.2-.1-.1-.3.2-.3.4-.5.8-.5h2.4c.3 0 .4.2.4.6v2c0 .2.1.3.2.3.2 0 .3-.1.5-.3.5-.5.9-1.1 1.2-1.8.1-.3.2-.4.5-.4h1.8c.4 0 .5.2.4.5-.2.8-.6 1.5-1.1 2.1-.2.3-.4.5-.6.8-.2.2-.2.3 0 .5.2.2.5.4.7.7.4.4.7.8.9 1.3.1.3 0 .5-.3.5z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Сабир">Сабир</h1>
+                    <div class="typing-container">
+                        <h2 class="typing-text">Веб-разработчик</h2>
+                    </div>
+                    <p class="hero-description">
+                        Создаю современные веб-решения, которые работают.<br>
+                        От идеи до реализации и продвижения.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Мои проекты</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Связаться</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="card-icon">⚡</span>
+                            <span>Fast</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="card-icon">🎨</span>
+                            <span>Creative</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <span class="card-icon">🚀</span>
+                            <span>Modern</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">01.</span>
+                О себе
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="glass-card">
+                        <p>
+                            Привет! Я Сабир — веб-разработчик с дипломом по специальности 
+                            <strong>"Разработчик веб и мультимедийных приложений"</strong>.
+                        </p>
+                        <p>
+                            Создаю сайты на заказ и занимаюсь их продвижением. Работаю с современными 
+                            технологиями и инструментами, активно применяю нейросети в работе.
+                        </p>
+                        <p>
+                            Являюсь <strong>цифровым волонтером</strong> и регулярно участвую в проектах 
+                            по развитию молодежи. Интересуюсь бизнесом и постоянно учусь новому.
+                        </p>
+                        <p class="highlight">
+                            Отношу себя к Vibe-кодерам — создаю не просто сайты, а digital-опыт 🎯
+                        </p>
+                        
+                        <!-- Compact Gallery -->
+                        <div class="compact-gallery" data-aos="fade-up" data-aos-delay="200">
+                            <h4 class="compact-gallery-title">Мероприятия и достижения</h4>
+                            <div class="gallery-container">
+                                <button class="gallery-nav gallery-prev" aria-label="Предыдущее фото">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                <div class="compact-gallery-scroll">
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_3460.JPG" 
+                                         data-caption="Бизнес-фест Сбера"
+                                         data-description="Участие в крупнейшем бизнес-мероприятии Сбербанка. Получил ценный опыт в области финтех-решений и цифровой трансформации бизнеса."
+                                         data-gained="Новые знания о современных банковских технологиях, нетворкинг с экспертами индустрии, понимание трендов цифровизации">
+                                        <img src="./picture/IMG_3460.JPG" alt="Бизнес-фест Сбера" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Бизнес-фест Сбера</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_4141.JPG" 
+                                         data-caption="Лекция по доменным именам"
+                                         data-description="Образовательная лекция о системе доменных имен, их регистрации и управлении. Углубил знания в области веб-технологий."
+                                         data-gained="Техническое понимание DNS, практические навыки работы с доменами, знания о безопасности веб-ресурсов">
+                                        <img src="./picture/IMG_4141.JPG" alt="Лекция по доменным именам" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Лекция по доменным именам</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_4219.JPG" 
+                                         data-caption="Практикум по безопасным системам"
+                                         data-description="Практическое занятие по информационной безопасности и защите данных. Изучил современные методы защиты веб-приложений."
+                                         data-gained="Навыки кибербезопасности, понимание уязвимостей веб-приложений, методы защиты пользовательских данных">
+                                        <img src="./picture/IMG_4219.JPG" alt="Практикум по безопасным системам" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Практикум по безопасным системам</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_4236.JPG" 
+                                         data-caption="Как продвигать свой проект"
+                                         data-description="Семинар по продвижению проектов. Изучили основы продвижение через соцсети и правильный подход к продвижению проектов."
+                                         data-gained="Понимание основ продвижения проектов, методы оптимизации продвижения, понимание принципов эффективного продвижения">
+                                        <img src="./picture/IMG_4236.JPG" alt="Продвижение проектов" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Продвижение проектов</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_4406.JPG" 
+                                         data-caption="Международная школа интернет-безопасности"
+                                         data-description="Участие в международной школе интернет-безопасности. Изучение современных методов защиты данных и защита пользовательских данных. Работа в команде и в месте с самыми крутыми ребятами нашей страны"
+                                         data-gained="Лидерские навыки, понимание трендов IT-индустрии, расширение профессиональной сети контактов">
+                                        <img src="./picture/IMG_4406.JPG" alt="Форум цифровых лидеров" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Форум цифровых лидеров</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                    <div class="compact-gallery-item" 
+                                         data-src="./picture/IMG_4490.JPG" 
+                                         data-caption="Networking после выступления"
+                                         data-description="Нетворкинг-сессия после технического выступления. Установил новые профессиональные связи и обсудил перспективы сотрудничества."
+                                         data-gained="Расширение профессиональных контактов, навыки презентации проектов, опыт публичных выступлений">
+                                        <img src="./picture/IMG_4490.JPG" alt="Networking после выступления" loading="lazy">
+                                        <div class="gallery-overlay">
+                                            <span class="gallery-caption">Networking после выступления</span>
+                                            <span class="gallery-action">Подробнее</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="gallery-nav gallery-next" aria-label="Следующее фото">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-icon">💼</div>
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Проектов реализовано</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎓</div>
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Года опыта</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">% довольных клиентов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-info">
+                <div class="lightbox-caption"></div>
+                <div class="lightbox-description"></div>
+                <div class="lightbox-gained">
+                    <h4>Что я приобрел</h4>
+                    <p class="lightbox-gained-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EVA Project Modal -->
+    <div id="eva-modal" class="project-modal">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Закрыть">&times;</button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>EVA Telegram бот</h2>
+                    <div class="modal-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Telegram API</span>
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">Commercial</span>
+                    </div>
+                </div>
+
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3>О проекте</h3>
+                        <p>EVA - это инновационный коммерческий Telegram-бот, разработанный для автоматизации процесса продаж. Бот интегрирует современные технологии искусственного интеллекта для создания полноценного интернет-магазина прямо в Telegram.</p>
+                    </div>
+
+                    <div class="modal-gallery">
+                        <img src="./my_project/project_3.png" alt="Интерфейс EVA бота" class="modal-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3>Ключевые возможности</h3>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <div class="feature-icon">🤖</div>
+                                <h4>AI-интеграция</h4>
+                                <p>Использование нейросетей для обработки и анализа данных</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">📋</div>
+                                <h4>Обработка прайс-листов</h4>
+                                <p>Автоматическое парсинг и структурирование товаров</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🛍️</div>
+                                <h4>Интернет-магазин</h4>
+                                <p>Полноценный магазин с корзиной и оформлением заказов</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">💳</div>
+                                <h4>Система оплаты</h4>
+                                <p>Интеграция платежных систем для приема оплаты</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">📊</div>
+                                <h4>Аналитика</h4>
+                                <p>Статистика продаж и поведения пользователей</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🔔</div>
+                                <h4>Уведомления</h4>
+                                <p>Автоматические уведомления о заказах и статусах</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3>Технологический стек</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Python 3.11</span>
+                            <span class="tech-badge">Aiogram 3.x</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">Redis</span>
+                            <span class="tech-badge">OpenAI API</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">SQLAlchemy</span>
+                            <span class="tech-badge">Pandas</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3>Функциональность</h3>
+                        <ul class="features-list">
+                            <li>✅ Автоматическая загрузка и обработка прайс-листов в различных форматах (Excel, CSV, TXT)</li>
+                            <li>✅ Умный поиск товаров с использованием нейросетей</li>
+                            <li>✅ Категоризация товаров и создание каталога</li>
+                            <li>✅ Интерактивная корзина с расчетом стоимости</li>
+                            <li>✅ Оформление заказов с выбором способа доставки</li>
+                            <li>✅ Панель администратора для управления магазином</li>
+                            <li>✅ Интеграция с CRM-системой заказчика</li>
+                            <li>✅ Многоязычная поддержка интерфейса</li>
+                            <li>✅ Система лояльности и промокодов</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3>Результаты</h3>
+                        <div class="results-grid">
+                            <div class="result-card">
+                                <div class="result-number">500+</div>
+                                <div class="result-label">Активных пользователей</div>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-number">1000+</div>
+                                <div class="result-label">Обработанных заказов</div>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-number">95%</div>
+                                <div class="result-label">Удовлетворенность клиентов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">02.</span>
+                Навыки и технологии
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-card">
+                        <div class="category-icon">💻</div>
+                        <h3>Frontend Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-card">
+                        <div class="category-icon">🛠️</div>
+                        <h3>Инструменты</h3>
+                        <div class="tools-grid">
+                            <div class="tool-badge">Figma</div>
+                            <div class="tool-badge">Pixso</div>
+                            <div class="tool-badge">Tilda</div>
+                            <div class="tool-badge">WordPress</div>
+                            <div class="tool-badge">Git</div>
+                            <div class="tool-badge">AI Tools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-card">
+                        <div class="category-icon">🤖</div>
+                        <h3>Дополнительно</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Telegram Боты</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SEO продвижение</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Нейросети</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">03.</span>
+                Избранные проекты
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="./my_project/project_1.png" alt="Военно-спортивный клуб Hisnik" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://hisnik.ru" target="_blank" class="project-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="project-bg-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                        <h3>Военно-спортивный клуб</h3>
+                        <p>Дипломный коммерческий проект на React для военно-спортивного клуба. Современный дизайн, адаптивная верстка.</p>
+                        <a href="https://hisnik.ru" target="_blank" class="project-demo">
+                            Посмотреть проект →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./my_project/project_2.png" alt="Военно-спортивный клуб Hisnik" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://kuznec-kovka.tilda.ws/" target="_blank" class="project-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="project-bg project-2"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Tilda</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                        <h3>Кузнечная мастерская</h3>
+                        <p>Коммерческий проект на Tilda для кузнечной мастерской. Элегантный дизайн, который подчеркивает мастерство.</p>
+                        <a href="https://kuznec-kovka.tilda.ws/" target="_blank" class="project-demo">
+                            Посмотреть проект →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="./my_project/project_3.png" alt="EVA Telegram бот" class="project-img">
+                        <div class="project-overlay">
+                            <button class="project-link" data-modal="eva-modal" aria-label="Подробнее о проекте">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="project-bg project-3"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Telegram Bot</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                        <h3>EVA Telegram бот</h3>
+                        <p>Коммерческий бот с интеграцией нейросетей. Обрабатывает прайс-лист заказчика и создает полноценный магазин для клиентов.</p>
+                        <button class="project-demo" data-modal="eva-modal">
+                            Подробнее о проекте →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-link inactive">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project-bg project-4"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Educational</span>
+                        </div>
+                        <h3>Учебные проекты</h3>
+                        <p>Множество учебных проектов на HTML/CSS и дополнительные Telegram боты для различных задач.</p>
+                        <div class="project-demo inactive">
+                            Портфолио проектов
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">04.</span>
+                Свяжитесь со мной
+            </h2>
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-text">
+                    <h3>Готов обсудить ваш проект</h3>
+                    <p>
+                        Ищете веб-разработчика для реализации вашей идеи? 
+                        Свяжитесь со мной — обсудим детали и создадим что-то крутое вместе!
+                    </p>
+                </div>
+                <div class="contact-methods">
+                    <a href="https://t.me/hard_skil" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm6.868 9.856l-2.34 11.03c-.176.79-.636 1.002-1.29.624l-3.56-2.624-1.716 1.65c-.19.19-.348.348-.714.348l.254-3.602 6.56-5.926c.286-.254-.062-.396-.444-.142l-8.106 5.102-3.492-1.092c-.76-.238-.776-.76.158-1.126l13.652-5.262c.634-.238 1.188.142.982 1.02z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Telegram</span>
+                            <span class="contact-value">@hard_skil</span>
+                        </div>
+                    </a>
+
+                    <a href="mailto:sabirivasov@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M4 8l12 8 12-8M4 8v16a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V8M4 8a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">sabirivasov@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Sabir44ka" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 2C8.475 2 2 8.475 2 16c0 6.19 4.017 11.445 9.59 13.295.7.13.96-.305.96-.675 0-.335-.015-1.445-.02-2.62-3.895.845-4.715-1.65-4.715-1.65-.64-1.62-1.56-2.05-1.56-2.05-1.275-.87.095-.855.095-.855 1.41.1 2.15 1.45 2.15 1.45 1.25 2.145 3.285 1.525 4.085 1.165.125-.905.49-1.525.89-1.875-3.115-.355-6.39-1.56-6.39-6.94 0-1.535.55-2.79 1.445-3.775-.145-.355-.625-1.78.135-3.71 0 0 1.18-.38 3.86 1.44 1.12-.31 2.32-.465 3.51-.47 1.19.005 2.39.16 3.51.47 2.68-1.82 3.855-1.44 3.855-1.44.765 1.93.285 3.355.14 3.71.9.985 1.44 2.24 1.44 3.775 0 5.395-3.28 6.58-6.405 6.925.505.435.955 1.29.955 2.6 0 1.875-.015 3.385-.015 3.845 0 .375.255.815.965.675C25.985 27.44 30 22.185 30 16c0-7.525-6.475-14-14-14z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">github.com/Sabir44ka</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Сабир. Создано с использованием креативного мышления и с приятным вниманием к мелочам</p>
+                <div class="footer-social">
+                    <a href="https://t.me/hard_skil" target="_blank" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 1C5.03 1 1 5.03 1 10s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm4.29 6.16l-1.46 6.89c-.11.49-.4.63-.81.39l-2.22-1.64-1.07 1.03c-.12.12-.22.22-.45.22l.16-2.25 4.1-3.7c.18-.16-.04-.25-.28-.09L7.42 11.8l-2.18-.68c-.48-.15-.49-.48.1-.7l8.53-3.29c.4-.15.74.09.61.64z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/hard_sskil" target="_blank" aria-label="VKontakte">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm5.5 14.5h-1.8c-.4 0-.7-.3-1.1-.7-.3-.3-.6-.6-.9-.6-.5 0-.6.2-.6.6v.7c0 .3-.1.4-.4.4h-.9c-.5 0-1.1-.1-1.6-.4-.4-.2-.8-.5-1.1-.9-.6-.7-1.1-1.5-1.5-2.4-.4-.9-.6-1.7-.6-2.4 0-.3.1-.4.4-.4h1.8c.3 0 .4.1.5.4.2.7.5 1.3.9 1.8.1.2.3.3.4.3.2 0 .3-.1.3-.4v-1.5c0-.7-.2-.9-.6-.9h-.3c-.2 0-.2-.1-.1-.3.2-.3.4-.5.8-.5h2.4c.3 0 .4.2.4.6v2c0 .2.1.3.2.3.2 0 .3-.1.5-.3.5-.5.9-1.1 1.2-1.8.1-.3.2-.4.5-.4h1.8c.4 0 .5.2.4.5-.2.8-.6 1.5-1.1 2.1-.2.3-.4.5-.6.8-.2.2-.2.3 0 .5.2.2.5.4.7.7.4.4.7.8.9 1.3.1.3 0 .5-.3.5z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Sabir44ka" target="_blank" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 1.25c-4.84 0-8.75 3.91-8.75 8.75 0 3.87 2.51 7.15 5.99 8.31.44.08.6-.19.6-.42 0-.21-.01-.9-.01-1.64-2.44.53-2.95-1.03-2.95-1.03-.4-1.01-.98-1.28-.98-1.28-.8-.54.06-.53.06-.53.88.06 1.34.91 1.34.91.78 1.34 2.05.95 2.55.73.08-.57.31-.95.56-1.17-1.95-.22-4-1-4-4.34 0-.96.34-1.74.9-2.36-.09-.22-.39-1.11.09-2.32 0 0 .74-.24 2.41.9.7-.19 1.45-.29 2.19-.29.74 0 1.49.1 2.19.29 1.67-1.14 2.4-.9 2.4-.9.48 1.21.18 2.1.09 2.32.56.62.9 1.4.9 2.36 0 3.35-2.05 4.12-4.01 4.34.32.27.6.81.6 1.63 0 1.17-.01 2.11-.01 2.4 0 .23.16.5.6.42 3.48-1.16 5.99-4.44 5.99-8.31 0-4.84-3.91-8.75-8.75-8.75z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:sabirivasov@gmail.com" class="nav-social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M2 5l8 5 8-5M2 5v10a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5M2 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
